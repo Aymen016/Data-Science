@@ -14,8 +14,8 @@ Welcome to the **Groq API Integration with LangChain**! This project demonstrate
 
 ### Clone this repository:
 ```bash
- git clone https://github.com/yourusername/your-repo.git
- cd your-repo
+ git clone https://github.com/Aymen016/Data-Science.git
+ cd Data-Science
 ```
 
 ### Create a virtual environment (optional but recommended):
@@ -50,7 +50,7 @@ export GROQ_API_KEY=your_api_key_here
 ```
 
 ### Method 2: Hardcode API Key (Not Recommended)
-Edit `lang.py` and replace:
+Edit `test.py` and replace:
 ```python
 GROQ_API_KEY = "your_api_key_here"
 ```
@@ -59,7 +59,7 @@ GROQ_API_KEY = "your_api_key_here"
 ## 🚀 Usage
 Run the script to interact with the Groq model:
 ```bash
-python lang.py
+python test-api.py
 ```
 ### Example Query:
 > "Write a simple code to generate Fibonacci numbers in Rust?"
