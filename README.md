@@ -1,99 +1,76 @@
-# 🚀 Groq API with LangChain
+# 📊 Data-Science Repository
 
-Welcome to the **Groq API Integration with LangChain**! This project demonstrates how to leverage **Groq's high-speed AI models** using Python and LangChain to generate intelligent responses efficiently. 
+Welcome to the **Data-Science** repository! 🚀 This repository contains my weekly AI/ML internship tasks, covering various aspects of artificial intelligence, machine learning, and data science.
 
-## 🔥 Features
-- Utilizes **Groq's LLMs** 
-- Integrates with **LangChain** for prompt handling
-- Provides **fast & accurate responses** using AI
-- Demonstrates **best practices** for API key security
+## 🔥 About This Repository
+- 📌 **Weekly AI/ML tasks** from my internship
+- 🛠 **Projects** involving Streamlit, Groq API, and more
+- 📂 Well-documented code with examples & explanations
+- 📸 Includes **screenshots** of app interfaces & results
+
+---
+
+## 📂 Project Structure
+```
+Data-Science/
+│── Groq-API/             # Groq API implementation with LangChain
+│── streamlit-app/        # Streamlit-based web app for AI tasks
+│── .gitignore            # Ignored files
+│── LICENSE               # License file
+│── README.md             # Project documentation
+```
 
 ---
 
 ## 🛠 Installation
-
-### Clone this repository:
+### Clone the Repository
 ```bash
- git clone https://github.com/Aymen016/Data-Science.git
- cd Data-Science
+git clone https://github.com/Aymen016/Data-Science.git
+cd Data-Science
 ```
 
-### Create a virtual environment (optional but recommended):
+### Create a Virtual Environment
 ```bash
 python -m venv venv
 source venv/bin/activate  # macOS/Linux
 venv\Scripts\activate     # Windows
 ```
 
-### Install dependencies:
+### Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
 ---
 
-## 🔑 API Key Setup
-Before running the script, set up your **Groq API Key**:
+## 🚀 Weekly Tasks
+Each week, new tasks will be added here:
 
-### Method 1: Export API Key (Recommended)
-**Windows (Command Prompt):**
-```cmd
-set GROQ_API_KEY=your_api_key_here
-```
-**Windows (PowerShell):**
-```powershell
-$env:GROQ_API_KEY = "your_api_key_here"
-```
-**macOS/Linux:**
-```bash
-export GROQ_API_KEY=your_api_key_here
-```
+### ✅ Task 1: Groq API Integration
+- Implemented **Groq API** with LangChain
+- Generated AI responses efficiently
+- Ensured **secure API key handling**
 
-### Method 2: Hardcode API Key (Not Recommended)
-Edit `test.py` and replace:
-```python
-GROQ_API_KEY = "your_api_key_here"
-```
----
+### ✅ Task 2: Streamlit App
+- Built an **interactive Streamlit dashboard**
+- Designed a **CRUD application**
+- Added **gradient sidebar & improved UI**
 
-## 🚀 Usage
-Run the script to interact with the Groq model:
-```bash
-python test-api.py
-```
-### Example Query:
-> "Write a simple code to generate Fibonacci numbers in Rust?"
-
-### Example Output:
-```rust
-fn fibonacci(n: u32) -> Vec<u32> {
-    let mut sequence = vec![0, 1];
-    for i in 2..n {
-        let next = sequence[i - 1] + sequence[i - 2];
-        sequence.push(next);
-    }
-    sequence
-}
-fn main() {
-    println!("{:?}", fibonacci(10));
-}
-```
+(Screenshots for each task will be added here 📸)
 
 ---
 
 ## 🤝 Contributing
+Want to contribute? Follow these steps:
 1. Fork the repo 🍴
-2. Create a new branch 🚀 (`git checkout -b feature-branch`)
-3. Commit your changes 📝 (`git commit -m 'Add new feature'`)
-4. Push to the branch 📤 (`git push origin feature-branch`)
-5. Create a Pull Request 🔥
+2. Create a new branch (`git checkout -b feature-branch`)
+3. Commit changes (`git commit -m 'Added new feature'`)
+4. Push to your branch (`git push origin feature-branch`)
+5. Create a Pull Request 🚀
 
 ---
 
 ## 📜 License
-This project is **MIT Licensed**. Feel free to modify and use it! 🎉
-
----
+This project is **MIT Licensed**. Feel free to use and modify! 🎉
 
 💡 **Made with ❤️ by Aymen** | Happy Coding! 🚀
-
