@@ -5,19 +5,14 @@ Welcome to the **Streamlit CRUD App**! This is a simple web application built us
 ## 📷 Screenshots
 
 ### Home Page
-![Home Page](screenshots/home.png)
+![Home Page](https://github.com/user-attachments/assets/382375a5-4983-481b-8f74-269ae6e60741)
 
 ### Create Entry
-![Create Entry](screenshots/create.png)
+![Create Entry](https://github.com/user-attachments/assets/2d71a0d7-c95b-4d13-ae71-fa219db79ce5)
 
 ### View Entries
-![View Entries](screenshots/read.png)
+![View Entries](https://github.com/user-attachments/assets/d7ccbde8-c134-4caf-beb7-9dbda360d5e7)
 
-### Update Entry
-![Update Entry](screenshots/update.png)
-
-### Delete Entry
-![Delete Entry](screenshots/delete.png)
 
 ## 🚀 Features
 - 📥 **Create** new entries with a name and age.
