@@ -56,7 +56,6 @@ Each week, new tasks will be added here:
 - Designed a **CRUD application**
 - Added **gradient sidebar & improved UI**
 
-(Screenshots for each task will be added here 📸)
 
 ---
 
