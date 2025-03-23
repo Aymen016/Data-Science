@@ -1,73 +1,73 @@
-# Streamlit CRUD Application
+# 📌 Streamlit CRUD App
 
-## Introduction
-This is a simple CRUD (Create, Read, Update, Delete) web application built using **Streamlit**. The application allows users to manage data entries with an interactive and user-friendly interface.
+Welcome to the **Streamlit CRUD App**! This is a simple web application built using Streamlit that allows users to perform CRUD (Create, Read, Update, Delete) operations on a dataset.
 
-## Features
-- **Navigation Sidebar**: Allows users to switch between different sections.
-- **Create Entry**: Users can enter data such as name and age.
-- **Read Entries**: Displays existing data entries.
-- **Update Entry**: Modify existing records.
-- **Delete Entry**: Remove unwanted records.
+## 📷 Screenshots
 
-## Installation
-To run this Streamlit application, ensure you have **Python 3.7+** installed. Then, follow these steps:
+### Home Page
+![Home Page](screenshots/home.png)
 
-```sh
-# Clone the repository (if applicable)
-git clone https://github.com/your-repository.git
-cd your-repository
+### Create Entry
+![Create Entry](screenshots/create.png)
 
-# Install dependencies
-pip install -r requirements.txt
+### View Entries
+![View Entries](screenshots/read.png)
 
-# Run the application
-streamlit run app.py
-```
+### Update Entry
+![Update Entry](screenshots/update.png)
 
-## Configuration
-You can modify the app theme by creating or editing the Streamlit configuration file (`.streamlit/config.toml`):
+### Delete Entry
+![Delete Entry](screenshots/delete.png)
 
-```toml
-[theme]
-primaryColor = "#6C63FF"
-backgroundColor = "#F5F5F5"
-secondaryBackgroundColor = "#C084FC"
-textColor = "#333333"
-font = "sans serif"
-```
+## 🚀 Features
+- 📥 **Create** new entries with a name and age.
+- 📋 **Read** existing entries in a table format.
+- ✏️ **Update** the age of an entry.
+- ❌ **Delete** an entry from the dataset.
+- 🎨 **Stylish UI** with a gradient sidebar and modern design.
 
-## Styling
-For additional UI enhancements, custom CSS has been applied using `st.markdown`.
+## 🛠 Installation & Setup
 
-```python
-def apply_custom_css():
-    st.markdown(
-        """
-        <style>
-        .stSidebar { background: linear-gradient(135deg, #4B0082, #FF6B6B); padding: 20px; }
-        .stButton>button { background-color: #6C63FF; color: white; border-radius: 8px; }
-        .stTextInput>div>div>input { background-color: #F0F0F0; border-radius: 5px; }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/your-username/streamlit-crud-app.git
+   cd streamlit-crud-app
+   ```
 
-apply_custom_css()
-```
+2. **Create a virtual environment (optional but recommended)**
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
 
-## Usage
-1. **Home Page**: Displays a welcome message.
-2. **Create**: Allows users to enter new records.
-3. **Read**: Displays stored data.
-4. **Update**: Edit existing records.
-5. **Delete**: Remove records from the database.
+3. **Install dependencies**
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-## License
-This project is licensed under the MIT License. Feel free to use and modify it for your own needs!
+4. **Run the Streamlit app**
+   ```sh
+   streamlit run app.py
+   ```
 
-## Contributing
-If you'd like to contribute, fork the repository and submit a pull request with your changes.
+## 🎨 Styling
+- The sidebar has a **gradient background** to enhance aesthetics.
+- Icons and **emojis** are used for a modern UI experience.
+- Streamlit components are styled for better UX.
 
-Happy coding! 🚀
+## 📌 How to Use
+1. Use the **sidebar navigation** to switch between Home, Create, Read, Update, and Delete sections.
+2. Add an entry using the **Create** page.
+3. View all entries on the **Read** page.
+4. Modify an entry's age using the **Update** page.
+5. Remove an entry from the dataset using the **Delete** page.
+
+## 🤝 Contributing
+Feel free to contribute by submitting pull requests or reporting issues!
+
+## 📄 License
+This project is licensed under the MIT License.
+
+---
+✨ Happy Coding! 🚀
 
